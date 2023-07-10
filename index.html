@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Danny Perez</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Sidebar -->
+    <section id="sidebar">
+      <div class="inner">
+        <script>
+          // Check if the screen size is Tablet
+          function isTabletScreen() {
+            return window.matchMedia('(min-width: 1280px)').matches; // Adjust the breakpoint as needed
+          }
+
+          // Display the image if the screen size is tablet
+          if (isTabletScreen()) {
+            document.write(`
+            <div
+          style="
+            position: relative;
+            display: inline-block;
+            margin-left: 50px;
+            top: -80px;
+          "
+        >
+          <div
+            style="
+              width: 200px;
+              height: 200px;
+              overflow: hidden;
+              border-radius: 50%;
+            "
+          >
+            <img
+              src="images/Danny3.png"
+              alt=""
+              style="
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: top left;
+              "
+            />
+          </div>
+        </div>
+            `);
+          }
+        </script>
+
+        <nav>
+          <ul>
+            <li><a href="#intro">About Me</a></li>
+            <li><a href="#one">Professional Experience</a></li>
+            <li><a href="#two">Projects</a></li>
+            <li><a href="#three">Get in touch</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Intro -->
+      <section id="intro" class="wrapper style1 fullscreen fade-up">
+        <div class="inner">
+          <script>
+            // Check if the screen size is mobile
+            function isMobileScreen() {
+              return window.matchMedia('(max-width: 1280px)').matches; // Adjust the breakpoint as needed
+            }
+
+            // Display the image if the screen size is mobile
+            if (isMobileScreen()) {
+              document.write(`
+                <div style="width: 150px; height: 150px; overflow: hidden; border-radius: 50%;">
+                  <img src="images/Danny3.png" alt="" style="width: 100%; height: 100%; object-fit: cover; object-position: top left;">
+                </div>
+              `);
+            }
+          </script>
+          <h1>Danny Perez</h1>
+          <p>
+            I'm a Mid-level Full Stack Developer and Database Administrator with
+            2+ years of experience. I create innovative web apps, data analytics
+            reports, and REST APIs that make a positive impact. Constantly
+            learning and staying up-to-date, I enjoy collaborating with talented
+            professionals to deliver high-quality work. Let's connect and
+            explore opportunities!
+          </p>
+
+          <div class="split style2-alt">
+            <section>
+              <h4>Hard Skills</h4>
+              <ul class="skills">
+                <li>SQL Database Management</li>
+                <li>Back-end Development</li>
+                <li>Front-end Development</li>
+                <li>Business Logic</li>
+                <li>Report Generation</li>
+              </ul>
+            </section>
+
+            <section>
+              <h4>Soft Skills</h4>
+              <ul class="skills">
+                <li>Communication</li>
+                <li>Decision Making</li>
+                <li>Problem-solving</li>
+                <li>Attention to Detail</li>
+                <li>Time Management</li>
+              </ul>
+            </section>
+
+            <section>
+              <h4>Technical Skills</h4>
+              <ul class="skills">
+                <li>SQL Server, My SQL, PostgreSQL</li>
+                <li>Typescript, Node JS, ASP.net, C#</li>
+                <li>Git</li>
+                <li>RESTful APIs</li>
+                <li>Data Analytics</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <!-- One -->
+      <section id="one" class="wrapper style2 spotlights">
+        <section>
+          <div class="content">
+            <div class="inner">
+              <h2>Work</h2>
+              <b>CVM Finance and Credit Corp. </b><i>march 2018 - present</i>
+              <div class="skills">
+                <div><i>Full Stack Developer, Database Programmer</i></div>
+                <b>Key Responsibility</b>
+                <ul>
+                  <li>Execute and develop in-house system development</li>
+                  <li>Creating reports and dashboards</li>
+                  <li>Database Administrator</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="inner">
+              <b>MM Data processing Corp. </b><i> march 2017 - march 2018</i>
+              <div class="skills">
+                <div><i>Data Processor</i></div>
+                <b>Key Responsibility</b>
+                <ul>
+                  <li>OCR (convert picture docs into word text)</li>
+                  <li>
+                    Tagging (make all paragraph indentions, foot notes etc. are
+                    correct)
+                  </li>
+                  <li>Checker (Double Check all Tag)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <div class="inner">
+              <h2>Education</h2>
+              <b>Trent Information First Technical Career Institute</b>
+              <div class="skills">
+                <div><i>Information Technology</i></div>
+                Completed 2017
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <div class="inner">
+              <h2>Trainings and Certificates</h2>
+              <div class="skills">
+                <ul>
+                  <li>
+                    <div>The Ultimate Typescript Course</div>
+                    <i>@codewithmosh</i>
+                  </li>
+                  <br />
+                  <li>
+                    <div>The Ultimate Git Course</div>
+                    <i>@codewithmosh</i>
+                  </li>
+                  <br />
+                  <li>
+                    <div>Learn SSRS Reporting</div>
+                    <i>@udemy</i>
+                  </li>
+                  <br />
+                  <li>
+                    <div>Next JS</div>
+                    <i>@programminghub</i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- Two -->
+      <section id="two" class="wrapper style3 fade-up">
+        <div class="inner">
+          <h2>Projects Involved</h2>
+
+          <div class="features">
+            <section>
+              <h3>PCAP Website and Game Admin</h3>
+              <p class="skills">
+                Professional Chess Association of the Philippines official
+                website and game admin. This project is to help chess players
+                and other social media personnel, to see updated schedules and
+                results.
+              </p>
+              <p>
+                The Game Admin is focused on game schedules, player line-up,s
+                and automating the game results.
+              </p>
+            </section>
+            <section>
+              <h3>Smart Bulletin Board</h3>
+              <p>
+                This project is to provide an interactive Digital Kiosk in the
+                school to display announcement, school map, enrolment process
+                and many more.
+              </p>
+            </section>
+            <section>
+              <h3>Loan System</h3>
+              <p>
+                This project was built to provide automation on loan processing
+                that includes customer information and business information,
+                Loan approvals up to 3 levels, collections encoding or import
+                through an excel file, and generating of reports like Loan
+                Released Report and Collection Report, etc.
+              </p>
+            </section>
+            <section>
+              <h3>Central App</h3>
+              <p>
+                Central App is a straightforward and efficient system that
+                serves as a comprehensive solution for managing and organizing
+                all of a user's records. Designed with simplicity in mind,
+                Central App offers a user-friendly interface and powerful
+                features to handle various types of data and ensure seamless
+                record management.
+              </p>
+            </section>
+            <section>
+              <h3>Payroll System & Employee Portal (Enhancement)</h3>
+              <p>
+                This project is to provide automation for processing timekeeping
+                that includes time in and time out, and also work from home set
+                up though uploading data from biometrics. Online forms filling
+                like Leaves, Overtime, and OBN. Providing fast processing of
+                Payroll, and generating payslips and report.
+              </p>
+              <p>
+                Employee Portal is focused on CVM Finance employees to see their
+                employment information, leave credits, filing on forms(Leaves,
+                Overtime, OBN), payslips, and many more.
+              </p>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <!-- Three -->
+      <section id="three" class="wrapper style1 fade-up">
+        <div class="inner">
+          <h2>Get in touch</h2>
+          <p>
+            Thank you for visiting my portfolio! If you have any inquiries,
+            collaboration opportunities, or just want to say hello, I would love
+            to hear from you. Please feel free to reach out to me using the
+            contact information provided below.
+          </p>
+          <section>
+            <ul class="contact">
+              <li>
+                <h3>Address</h3>
+                <span
+                  >East Bank Rd. Exodus Blk. 2 Obadiah St. Brgy. Sta. Ana
+                  Taytay, Rizal</span
+                >
+              </li>
+              <li>
+                <h3>Email</h3>
+                <a>dannycperez01@gmail.com</a>
+              </li>
+              <li>
+                <h3>Mobile</h3>
+                <span>(+63) 975-5043-128</span>
+              </li>
+              <li>
+                <h3>Social</h3>
+                <ul class="icons">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/DannyPerez011/"
+                      class="icon brands fa-facebook-f"
+                      ><span class="label">Facebook</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/DannyPerez01"
+                      class="icon brands fa-github"
+                      ><span class="label">GitHub</span></a
+                    >
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/dannyperez01/"
+                      class="icon brands fa-linkedin-in"
+                      ><span class="label">LinkedIn</span></a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style1-alt">
+      <div class="inner">
+        <ul class="menu">
+          <li>&copy; Danny_Perez</li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
